@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Estrategias para la búsqueda, evaluación y uso ético de la información'
