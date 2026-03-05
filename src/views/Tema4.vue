@@ -21,14 +21,14 @@
       .col-12.col-md-9.order-md-2.order-2
         .row.justify-content-center.align-items-start
           .col-12.col-md-7.order-2.order-md-2(data-aos="fade-left")
-            .bloque-texto-c.color-primario-claro.caja-responsive.p-4.mb-4
+            .bloque-texto-c.color-primario-claro.caja-responsive.p-5.mb-2
               p.mb-0
                 | Las técnicas de comprensión lectora, permiten al lector interactuar de manera activa con el texto, identificar ideas principales y secundarias, reconocer la intención del autor, establecer relaciones lógicas y evaluar la información presentada. Estas técnicas varían según el tipo de texto, el propósito de la lectura y las características del lector, por lo que su aplicación consciente favorece una lectura más eficiente y significativa.
-          .col-12.col-md-5.order-3.order-md-1.mb-4.mb-md-0(data-aos="zoom-in")
+          .col-12.col-md-5.order-3.order-md-1.mb-2.mb-md-0(data-aos="zoom-in")
             figure.mb-0
               img.img-fluid.img-responsive(src='@/assets/curso/tema4/img-03.svg', alt='Imagen decorativa')
 
-        p.mt-3 Desarrollar la comprensión lectora implica adoptar estrategias antes, durante y después de la lectura, como anticipar el contenido, formular preguntas, realizar inferencias y reflexionar sobre lo leído. A continuación, se presentan conceptos y tipos de lectura que permitirán profundizar en estas técnicas y fortalecer la capacidad de comprender textos de diversa complejidad en distintos contextos académicos y cotidianos.
+        p.mt-4 Desarrollar la comprensión lectora implica adoptar estrategias antes, durante y después de la lectura, como anticipar el contenido, formular preguntas, realizar inferencias y reflexionar sobre lo leído. A continuación, se presentan conceptos y tipos de lectura que permitirán profundizar en estas técnicas y fortalecer la capacidad de comprender textos de diversa complejidad en distintos contextos académicos y cotidianos.
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -43,7 +43,7 @@
         figure
           img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
       .col-11
-        p.mb-0(data-aos="fade-left") No todos los textos son iguales, ni en su contenido ni en su forma. Además, es importante considerar que la comprensión lectora no depende únicamente del texto, sino también de diversos factores asociados al lector y al contexto. A continuación, se presentan los elementos que deben tenerse en cuenta para lograr una comprensión más profunda y enriquecedora del texto:
+        p.mb-0(data-aos="fade-left") Comprender un texto desde su estructura y secuencia, implica un proceso intencional que requiere la aplicación de diversas técnicas y en el que intervienen múltiples elementos, tal como se expuso en el apartado anterior. Este enfoque permite reconocer cómo se organizan las ideas y cómo se articulan entre sí para construir el significado global del texto.
 
     .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
       .col-xl-auto.px-0
@@ -228,4 +228,17 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.caja-sin-espacio
+  min-height: 0 !important
+  height: auto !important
+  padding: 16px !important
+
+.caja-sin-espacio::before,
+.caja-sin-espacio::after
+  content: none !important
+  display: none !important
+
+.caja-sin-espacio *
+  margin-bottom: 0 !important
+</style>

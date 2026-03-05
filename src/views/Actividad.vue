@@ -656,7 +656,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Optimizar y delimitar los resultados de búsqueda..',
+              texto: 'Optimizar y delimitar los resultados de búsqueda.',
               esCorrecta: true,
             },
             {

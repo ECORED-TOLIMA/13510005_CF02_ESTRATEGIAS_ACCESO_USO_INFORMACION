@@ -42,7 +42,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 1.
-          span  #[i Tipos de derechos de autor]
+          span Tipos de derechos de autor
         .tabla-a.color-acento-contenido.mb-4
           table
             thead
@@ -168,7 +168,7 @@
           h4.text-center Atribución Compartir Igual
           p.mb-0 El material creado puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. Las obras derivadas tienen que estar bajo los mismos términos de licencia que el trabajo original.
 
-    p.mb-4.text-center Igualmente, si se desea buscar contenidos con licencias Creative Commons se sugiere consultar los siguientes recursos:
+    p.mb-4.text-center Para evitar caer en el plagio se sugieren las siguientes estrategias: 
 
     .row.justify-content-center.mb-4
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0

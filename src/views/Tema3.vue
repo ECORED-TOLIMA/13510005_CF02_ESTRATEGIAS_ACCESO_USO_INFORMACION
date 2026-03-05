@@ -107,7 +107,7 @@
         .p-1
           h3.mb-0.ms-3 ¿Qué elementos intervienen para poder entender un texto? 
     
-    p.mb-4 No todos los textos son iguales, ni en su contenido ni en su forma. Además, es importante considerar que la comprensión lectora no depende únicamente del texto, sino también de diversos factores asociados al lector y al contexto. A continuación, se presentan los elementos que deben tenerse en cuenta para lograr una comprensión más profunda y enriquecedora del texto:
+    p.mb-5 No todos los textos son iguales, ni en su contenido ni en su forma. Además, es importante considerar que la comprensión lectora no depende únicamente del texto, sino también de diversos factores asociados al lector y al contexto. A continuación, se presentan los elementos que deben tenerse en cuenta para lograr una comprensión más profunda y enriquecedora del texto:
 
     .row.justify-content-center.mb-4
       .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4(data-aos="fade-right")

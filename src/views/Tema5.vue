@@ -44,7 +44,7 @@
               img(src='@/assets/curso/tema1/icono.svg', style="width: 45px" ,alt='').m-auto
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
-              h3.mb-0.ms-3 Sugerencias para mejorar la competencia lectora
+              h3.mb-0.ms-3 Evaluación crítica de información: el modelo CRAAP
 
         p.mb-0 El sistema CRAAP constituye una metodología de análisis profundo diseñada para verificar la validez, integridad y utilidad de los recursos informativos. Su implementación es vital en el ámbito investigativo y digital, ya que facilita una gestión ética de los datos y asegura que las conclusiones de un estudio se basen en evidencia sólida. 
 

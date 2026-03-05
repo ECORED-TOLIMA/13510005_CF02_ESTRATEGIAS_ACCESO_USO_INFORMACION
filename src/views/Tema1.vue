@@ -125,7 +125,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span <em>Espacio ideal para el estudio</em>  
+          span Espacio ideal para el estudio  
 
       .row.justify-content-center
         .col-10

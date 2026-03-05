@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/tema2/img-01.png", data-aos="zoom-in")
       .col-lg-7
-        .row.align-items-start.mb-3(data-aos="fade-left")
+        .row.align-items-start.mb-4(data-aos="fade-left")
           .col-lg  
             .cajon.cajon.C02.color-primario.p-4.mb-3.p-3
               p.mb-0(data-aos="fade-down") Para interactuar eficazmente con el conocimiento, es necesario descifrar la manera en que se articulan los discursos escritos. Entender la configuración de un texto dota al aprendiz de herramientas para evaluar y producir contenidos con rigor profesional.
@@ -23,12 +23,12 @@
           .col-lg-auto.col-9.titulo01(style="z-index:1")
             .p-1
               h3.mb-0.ms-3 Definición
-        p.mb-4 Se define como la red de relaciones lógicas que articulan y sostienen las ideas de un autor. Aunque la mayoría de los textos siguen una estructura de apertura, desarrollo y cierre, esta organización puede variar según el propósito comunicativo. Reconocer este orden permite:
-        .row.align-items-start.mb-10(data-aos="fade-left")  
+        p.mb-3.mb-lg-5 Se define como la red de relaciones lógicas que articulan y sostienen las ideas de un autor. Aunque la mayoría de los textos siguen una estructura de apertura, desarrollo y cierre, esta organización puede variar según el propósito comunicativo. Reconocer este orden permite:
+        .row.align-items-start.mb-0(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/introduccion/img-02.svg", style="max-width: 90px").mx-auto
           .col-lg
-            ul.lista-ul
+            ul.lista-ul.mb-0
               li.mb-0 
                 <i class="fa-solid fa-life-ring bg-color-2"></i>
                 | Diferenciar las tesis centrales de los argumentos secundarios.

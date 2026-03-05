@@ -113,23 +113,23 @@
         p(data-aos="fade-left") El parafraseo se emplea cuando se utilizan las ideas de otro autor, pero se expresan con palabras propias. No obstante, es indispensable incluir la cita correspondiente al autor al finalizar el parafraseo. Asimismo, cuando se realiza el resumen de una página específica de un libro, debe indicarse el número de página en la referencia bibliográfica.
         p.mb-4(data-aos="fade-left") Ejemplo: 
 
-    .tarjeta--BG01.p-4.px-md-5.mb-4
-      .tarjeta.tarjeta--FBG01.p-4.my-4(data-aos="fade-left")
-        PasosB.color-acento-botones
-          .row
-            .col-lg-6.order-2.order-lg-1
+    .tarjeta--BG01.bg-fix-bleed.p-4.px-md-5.mb-4
+      .tarjeta.tarjeta--FBG01.p-4.p-lg-5.slider-fix-bleed
+        SlyderA(tipo="b" data-aos="zoom-in")
+          .row.justify-content-center
+            .col-lg-6.order-lg-1.order-2
               h4(style="color:#000 !important") Texto original
               p.mb-0(style="color:#000 !important") El reconocimiento óptico de caracteres es el proceso mediante el que, a partir de la imagen de un documento, se reconocen los caracteres en él contenidos. El proceso de OCR no siempre es capaz de leer la totalidad del contenido de los documentos, algunas palabras pueden estar mal interpretadas o algunos caracteres pueden ser erróneos. La tasa de errores dependerá de la calidad y el tipo de original que se maneje. No obstante, el OCR puede ahorrar mucho trabajo de introducción de datos. 
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4  
+            .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4 
               figure
-                img(src='@/assets/curso/tema8/img-09.png', alt='Imagen decorativa')
-          .row
-            .col-lg-6.order-2.order-lg-1
+                img(src='@/assets/curso/tema8/img-09.png', style="width: 500px" ,alt='').m-auto
+          .row.justify-content-center
+            .col-lg-6.order-lg-1.order-2
               h4(style="color:#000 !important") Parafraseo 
               p.mb-0(style="color:#000 !important") El reconocimiento óptico de caracteres (OCR) es un proceso en el cual se reconocen los caracteres de la imagen de un documento. Este proceso ahorra mucho trabajo de registro de datos a pesar de que algunas palabras pueden estar mal interpretadas o tomar erróneamente algunos caracteres. (Aedo, Díaz, Losada, 2004, p. 50) 
-            .col-lg-6.col-10.order-1.order-lg-2.mb-4
+            .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4 
               figure
-                img(src='@/assets/curso/tema8/img-10.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-10.png', style="width: 500px" ,alt='').m-auto
           
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -197,7 +197,10 @@
 export default {
   name: 'Tema8',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorTarjetaFlip: true,
+    indicadorTarjetaSlide: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -210,4 +213,35 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+// Recorta todo lo que se salga del slider (evita que se vea el anterior)
+.slider-fix-bleed
+  position: relative
+  overflow: hidden
+  background: #fff !important
+  border-radius: 24px
+  isolation: isolate
+
+  // Corta el track/contendedor del componente (clases típicas del SlyderA)
+  .slyder-a,
+  .slyder-a__contenedor,
+  .slyder-a__slides,
+  .slyder-a__slide
+    overflow: hidden !important
+    background: #fff !important
+
+  // Evita el z-index negativo global en figure que “mete” cosas detrás
+  figure
+    position: relative
+    z-index: 2 !important
+
+  img
+    max-width: 100%
+    height: auto
+
+// SOLO en este bloque: en móvil quita el margin-inline negativo que deja ver bordes
+@media (max-width: 576px)
+  .bg-fix-bleed
+    margin-inline: 0 !important
+    overflow: hidden !important
+</style>
