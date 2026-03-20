@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema3/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img-01.png', alt='')
 
     p El ejercicio de toma de notas es fundamental en distintos momentos del proceso formativo, ya sea en el ambiente de aprendizaje, durante la lectura de una publicación o en reuniones de trabajo colaborativo. Por ello, resulta indispensable contar con técnicas que permitan realizar esta tarea de manera consciente, estratégica y eficiente.
     p.mb-4 Las anotaciones facilitan la identificación de los tópicos más relevantes de lecturas, videos, charlas, clases y otros recursos, a través de:
@@ -19,7 +19,7 @@
       .row.justify-content-center.mb-4
         .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/tema3/img-02.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img-02.svg', alt='')
         .col-lg-9       
           ol.lista-ol--cuadro.lista-ol--separador
             li(data-aos="fade-left") 
@@ -33,7 +33,7 @@
             li(data-aos="fade-left") 
               .lista-ol--cuadro__vineta
                 span 3
-              | El registro de lo que piensa sobre el contenido y como se relacionan las ideas secundarias con la idea principal. 
+              | El registro de lo que piensa sobre el contenido y cómo se relacionan las ideas secundarias con la idea principal. 
             li(data-aos="fade-left") 
               .lista-ol--cuadro__vineta
                 span 4
@@ -126,7 +126,7 @@
               p.mb-0 La condición física y emocional del lector es clave para una experiencia lectora enriquecedora. Estar descansado, contar con buena visión, una adecuada nutrición y un estado de salud favorable, contribuye a mejorar la concentración y la comprensión del texto.
 
       .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img-11.png' alt="Imagen decorativa")
+        img(src='@/assets/curso/tema3/img-11.png' alt="")
 
 </template>
 

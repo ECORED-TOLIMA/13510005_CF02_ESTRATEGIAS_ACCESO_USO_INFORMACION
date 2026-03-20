@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema1/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img-01.png', alt='')
 
     p.mb-4 El éxito en la formación no depende únicamente del esfuerzo individual, sino de la armonización entre el individuo y su contexto. Establecer entornos, medios y estados óptimos, es fundamental para potenciar la asimilación de datos, la capacidad de análisis y el enfoque cognitivo.
 
@@ -25,7 +25,7 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/introduccion/img-02.svg', alt='')
       .col-11
         p.mb-0(data-aos="fade-left") Es fundamental designar un lugar fijo y específico para las tareas intelectuales, diferenciándolo claramente de los espacios destinados al descanso. Este puede ser un entorno físico (como una sala de estudio o una biblioteca) o un ecosistema virtual, siempre que asegure una organización adecuada y una gestión ordenada de los contenidos.
 
@@ -76,7 +76,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema1/img-05.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img-05.png', alt='')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="Soportes analógicos")
@@ -102,19 +102,19 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img-06.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img-06.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Ámbito biológico
             p.text-center.mb-0(style="color:#12263F") Un descanso reparador y una nutrición equilibrada para mantener la energía mental.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img-07.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img-07.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Ámbito cognitivo y emocional
             p.text-center.mb-0(style="color:#12263F") Mantener la motivación, definir objetivos claros y gestionar el estrés con una actitud resiliente.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img-08.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema1/img-08.svg' alt="")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FED2C7;")
             h4.text-center.mt-5(style="color:#12263F") Gestión cronológica
             p.text-center.mb-0(style="color:#12263F") La implementación de calendarios y hábitos de estudio disciplinados para optimizar el uso del tiempo.

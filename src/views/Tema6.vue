@@ -10,12 +10,12 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema6/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img-01.png', alt='')
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/introduccion/img-02.svg', alt='')
       .col-11
         p(data-aos="fade-left") La seguridad y la privacidad en internet se han consolidado progresivamente como temas de creciente interés y relevancia en el entorno digital, por lo que resulta indispensable que las personas cuenten con los conocimientos necesarios para que su interacción en este ámbito sea más segura y transparente.
         p(data-aos="fade-left") Algunos de estos aspectos son:
@@ -42,7 +42,7 @@
             | Rastrear los movimientos en el sitio. 
       .col-lg-5.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema6/img-02.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema6/img-02.png', alt='')
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -63,7 +63,7 @@
           img.img-hero(src='@/assets/curso/tema6/img-03.png', alt='').m-auto
       .col-xl.px-0
         .d-flex.align-items-start
-          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/tema6/img-04.png' alt="Imagen decorativa")
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/tema6/img-04.png' alt="")
         p.mb-0 Algunas personas buscan obtener información de equipos informáticos mediante el #[i hackeo], entendido como el acceso no autorizado a sistemas digitales. Una vez que el atacante logra ingresar al computador, puede identificar vulnerabilidades del sistema y utilizarlas para ampliar progresivamente el acceso a archivos y datos almacenados.
 
     .BMG1.px-md-5.px-4
@@ -115,7 +115,7 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/introduccion/img-02.svg', alt='')
       .col-9
         ol.lista-ol--cuadro.lista-ol--separador
           li(data-aos="fade-left") 

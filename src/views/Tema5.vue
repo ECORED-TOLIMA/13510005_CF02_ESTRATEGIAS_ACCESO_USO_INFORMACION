@@ -18,16 +18,16 @@
                   img(src="@/assets/curso/tema5/img-02.svg", data-aos="zoom-in")
               .col-lg.mb-3.mb-lg-0
                 h4(data-aos="fade-left").mb-4(style="color:#FF955E") Pódcast
-                p.text-white Lo invitamos a escuchar el siguiente Pódcast:
+                p.text-white Lo invitamos a escuchar el siguiente pódcast:
         
                 TarjetaAudio.color-secundario.bg-color-white.mb-3(
                   texto="Pódcast"
                   tiempo
-                  :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                  :audio="require('../assets/curso/podcast/Podcast_Instruccional_CF02_13510005_Técnicas_para_evaluar_fuentes_de_información.wav')"
                 )
       .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema5/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img-01.png', alt='')
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -64,7 +64,7 @@
         ImagenInfografica.color-acento-botones.desktop
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema5/figura-1-1v.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema5/figura-1-1v.svg', alt='')
           .tarjeta.tarjeta--blanca.p-3(x="60%" y="11%" numero="+")(style="background-color:#FC9D83")
             p.mb-0 Se centra en la fecha de publicación y si el contenido permanece válido o ha quedado obsoleto ante nuevos descubrimientos.
           .tarjeta.tarjeta--blanca.p-3(x="88.5%" y="43.5%" numero="+")(style="background-color:#FC9D83")
@@ -76,7 +76,7 @@
           .tarjeta.tarjeta--blanca.p-3(x="11.5%" y="43.5%" numero="+")(style="background-color:#FC9D83")
             p.mb-0 Analiza el "porqué" de la información. Determina si el texto busca instruir con objetividad o si intenta manipular, vender o promover una postura sesgada. 
         figure.movil
-          img(src='@/assets/curso/tema5/figura-1-2v.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/figura-1-2v.svg', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -91,7 +91,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema5/img-05.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img-05.png', alt='')
       .col-lg-6       
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="Filtrado de calidad")
@@ -114,7 +114,7 @@
       .row.justify-content-center.mb-4
         .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/tema5/img-06.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema5/img-06.svg', alt='')
         .col-lg-9       
           ol.lista-ol--cuadro.lista-ol--separador
             li(data-aos="fade-left") 
@@ -149,7 +149,7 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema5/img-07.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img-07.png', alt='')
       .col-lg-8       
         .cajon.cajon.C02.color-primario.p-4.mb-3.p-3
           p.mb-0(data-aos="fade-down") La relevancia es un criterio relativo, ya que depende directamente de la necesidad informativa. Un artículo puede ser de alta calidad, pero resulta inadecuado si no responde al tema específico de estudio; por ejemplo, un texto sobre la historia del fútbol no es pertinente cuando se investiga la biomecánica del golpeo del balón. Por ello, este criterio permite valorar si la información se ajusta al enfoque, los objetivos y el nivel de profundidad requeridos en el trabajo académico.
@@ -166,7 +166,7 @@
             | ¿Cubre el tema de manera integral o solo toca aspectos superficiales?
           li 
             <i class="fa-solid fa-life-ring bg-color-2"></i>
-            | ¿A quién va dirigido el texto? (Si es para niños, probablemente te falte profundidad académica).
+            | ¿A quién va dirigido el texto? (Si es para niños, probablemente le falte profundidad académica).
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -204,7 +204,7 @@
                 span 5
               | [  ] ¿El tema requiere por su naturaleza que los datos sean de último minuto?
         .col-12.col-md-6.col-lg-3.order-lg-2.order-1.mb-lg-0.mb-4.text-center(data-aos="fade-left")
-          img.img-fluid.img-responsive2(src='@/assets/curso/tema5/img-08.svg' alt="Imagen decorativa")
+          img.img-fluid.img-responsive2(src='@/assets/curso/tema5/img-08.svg' alt="")
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -217,7 +217,7 @@
     .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema5/img-09.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img-09.svg', alt='')
       .col-lg-8       
         .cajon.cajon.C03.color-secundario.p-4.mb-3.p-3
           p.mb-0(data-aos="fade-down") La objetividad absoluta es difícil de alcanzar; sin embargo, el rigor académico exige que los hechos se presenten de manera equilibrada. Por ello, es necesario identificar si el texto busca informar con fundamento o si, por el contrario, intenta persuadir, vender un producto o promover una postura ideológica, omitiendo deliberadamente otras perspectivas.
@@ -245,13 +245,13 @@
           h3.mb-0.ms-3 Precisión: verificando la exactitud
     
     p La precisión es el rasgo que distingue un #[i blog] de opinión de un recurso académico. Una fuente precisa presenta información verificable, se apoya en citas y referencias confiables, permitiendo al lector contrastar los datos de manera autónoma. En esencia, refleja un compromiso riguroso con la exactitud y la verdad técnica.
-    p.mb-4 #[i Checklist] de actualidad:
+    p.mb-4 #[i Checklist] de precisión:
 
     .BMG1.px-md-5.px-4
       .row.justify-content-center.mb-4
         .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/tema5/img-10.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema5/img-10.svg', alt='')
         .col-lg-8       
           ol.lista-ol--cuadro.lista-ol--separador
             li(data-aos="fade-left") 
@@ -278,7 +278,7 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/introduccion/img-02.svg', alt='')
       .col-11
         p.mb-0(data-aos="fade-left") Para facilitar la aplicación práctica de los criterios de evaluación de fuentes de información y fortalecer el análisis crítico de los recursos consultados, se presentan a continuación una serie de documentos anexos diseñados como herramientas de apoyo. Estos materiales permiten pasar de la teoría a la acción, ofreciendo guías claras, formatos estructurados y esquemas visuales que orientan la toma de decisiones informadas durante el proceso de búsqueda, selección y uso de información académica. Su uso sistemático contribuye a desarrollar autonomía, rigor investigativo y una postura crítica frente a la abundancia de contenidos disponibles en entornos digitales y académicos:
 
@@ -292,7 +292,7 @@
               h3.mb-1(style="color:#000") Matriz de evaluación rápida (hoja de cotejo)
               p Presenta una tabla práctica para valorar de forma ágil la confiabilidad de una fuente mientras se navega en internet, mediante criterios clave y una escala de puntuación que orienta la toma de decisiones.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Matriz_de_evaluacion_rapida.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_matriz_de_evaluacion_rapida.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -303,10 +303,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1(style="color:#000") Rúbrica de evaluación de trabajos de investigación
+              h3.mb-1(style="color:#000") Rúbrica de evaluación de trabajo de investigación
               p Ofrece un instrumento de autoevaluación que permite analizar la calidad de las fuentes utilizadas en un trabajo académico, considerando vigencia, contraste de información, detección de sesgos y rigor investigativo.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Rubrica_de_evaluación_de_trabajo_de_investigacion.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_rubrica_de_evaluacion_de_trabajo_de_investigacion.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -320,7 +320,7 @@
               h3.mb-1(style="color:#000") Guía visual “Semáforo de confiabilidad”
               p Propone un esquema gráfico sencillo para clasificar las fuentes, según su nivel de confiabilidad, facilitando la identificación rápida de recursos recomendados, verificables o descartables.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Guia_visual_Semaforo_de_confiabilidad.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_guia_visual_semaforo_de_confiabilidad.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -334,7 +334,7 @@
               h3.mb-1(style="color:#000") Plantilla de ficha de análisis de fuente
               p Incluye un formato detallado para examinar de manera crítica cada fuente consultada, evaluando autoridad, objetividad y precisión, emitiendo un veredicto fundamentado sobre su pertinencia académica.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Plantilla_de_ficha_de_analisis_de_fuente.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_plantilla_de_ficha_de_analisis_de_fuente.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

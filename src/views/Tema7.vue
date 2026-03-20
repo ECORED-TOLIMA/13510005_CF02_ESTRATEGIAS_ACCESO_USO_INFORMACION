@@ -10,15 +10,15 @@
     .row.justify-content-center.mb-4
       .col-lg-5.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema7/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema7/img-01.png', alt='')
       .col-lg-7       
         p.mb-4 De acuerdo con la Organización Mundial de la Propiedad Intelectual (OMPI) (s.f.): 
         .row.justify-content-center.mb-4
           .col.col-lg-10.order-lg-2.order-2
-            p(data-aos="fade-down") … La propiedad intelectual, tiene que ver con las creaciones de la mente: las invenciones, las obras literarias y artísticas, los símbolos, los nombres, las imágenes y los dibujos y modelos utilizados en el comercio. 
+            p(data-aos="fade-down") … La propiedad intelectual, tiene que ver con las creaciones de la mente: las invenciones las obras literarias y artísticas, los símbolos, los nombres, las imágenes y los dibujos y modelos utilizados en el comercio. 
           .col.col-lg-auto.order-lg-1.order-1.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/introduccion/img-02.svg', alt='')
         p.mb-4 Igualmente, la OMPI plantea que la propiedad intelectual se divide en dos categorías:
         LineaTiempoD.color-acento-botones
           .row.justify-content-center(numero="1" titulo="La propiedad industrial")
@@ -26,7 +26,7 @@
               p.mb-0 Incluye las invenciones, patentes, marcas, dibujos y modelos industriales e indicaciones geográficas de procedencia.
           .row.justify-content-center(numero="2" titulo="El derecho de autor")
             .col-12.order-lg-2.order-3
-              p.mb-0 Abarca las obras literarias y artísticas, tales como las novelas; los poemas y las obras de teatro, las películas, las obras musicales, las obras de arte, tales como los dibujos, pinturas, fotografías y esculturas y los diseños arquitectónicos. 
+              p.mb-0 Abarca las obras literarias y artísticas, tales como las novelas, los poemas y las obras de teatro, las películas, las obras musicales, las obras de arte, tales como los dibujos, pinturas, fotografías y esculturas, y los diseños arquitectónicos. 
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -34,7 +34,7 @@
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p En Colombia, la Dirección Nacional de Derechos de Autor (s.f.), lo plantea de esta manera: 
-        p … La Propiedad intelectual es una disciplina normativa que protege las creaciones intelectuales provenientes de un esfuerzo, trabajo o destreza humanos, dignos de reconocimiento jurídico. La Propiedad Intelectual comprende: el derecho de autor y los derechos conexos; la propiedad industrial (que comprende la protección de los signos distintivos, de las nuevas creaciones, los circuitos integrados, los secretos industriales); y las nuevas variedades vegetales.
+        p "La Propiedad intelectual es una disciplina normativa que protege las creaciones intelectuales provenientes de un esfuerzo, trabajo o destreza humanos, dignos de reconocimiento jurídico. La Propiedad Intelectual comprende: el derecho de autor y los derechos conexos; la propiedad industrial (que comprende la protección de los signos distintivos, de las nuevas creaciones, los circuitos integrados, los secretos industriales); y las nuevas variedades vegetales."
 
     p.mb-4.text-center Desde el momento de la creación de la obra, deben ser reconocidos al autor los siguientes dos tipos de derechos y acciones: 
 
@@ -84,16 +84,16 @@
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema7/img-03.svg', alt='Imagen decorativa')
-            h4.text-center.mb-4 Excepciones y limitaciones al derecho de autor 
-            p.mb-0 De acuerdo con el artículo 37 de la Ley 23 de 1982 sobre derechos de autor “Es licita la reproducción, por cualquier medio, de una obra literaria o científica, ordenada u obtenida por el interesado en un solo ejemplar para su uso privado y sin fines de lucro”. Se pueden identificar las obras con derechos reservados, aquellas que contienen el símbolo ©, seguido del nombre del autor y el año de publicación.
+                  img(src='@/assets/curso/tema7/img-03.svg', alt='')
+            h4.text-center.mb-4 Identificación de obras protegidas por derechos de autor
+            p.mb-0 Se pueden identificar las obras con derechos reservados, aquellas que contienen el símbolo ©, seguido del nombre del autor y el año de publicación. 
           .col-xl.col-md-6.tarjeta.color-secundario.p-4(style="background-color:#FED2C7")
             .row.justify-content-center.mb-3
               .col-lg-4.col-6
                 figure
-                  img(src='@/assets/curso/tema7/img-04.svg', alt='Imagen decorativa')
-            h4.text-center.mb-4 Excepciones y limitaciones al derecho de autor 
-            p.mb-0 De acuerdo con el artículo 37 de la Ley 23 de 1982 sobre derechos de autor “Es licita la reproducción, por cualquier medio, de una obra literaria o científica, ordenada u obtenida por el interesado en un solo ejemplar para su uso privado y sin fines de lucro”.
+                  img(src='@/assets/curso/tema7/img-04.svg', alt='')
+            h4.text-center.mb-4 Usos permitidos y excepciones legales al derecho de autor  
+            p.mb-0 De acuerdo con el artículo 37 de la Ley 23 de 1982 sobre derechos de autor “Es lícita la reproducción, por cualquier medio, de una obra literaria o científica, ordenada u obtenida por el interesado en un solo ejemplar para su uso privado y sin fines de lucro”.
 
     p.mb-4.text-center Para complementar un poco, se relacionan los siguientes niveles de permisos Creative Commons que se tienen:
 
@@ -168,7 +168,7 @@
           h4.text-center Atribución Compartir Igual
           p.mb-0 El material creado puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. Las obras derivadas tienen que estar bajo los mismos términos de licencia que el trabajo original.
 
-    p.mb-4.text-center Para evitar caer en el plagio se sugieren las siguientes estrategias: 
+    p.mb-4.text-center Igualmente, si se desea buscar contenidos con licencias Creative Commons se sugiere consultar los siguientes recursos:
 
     .row.justify-content-center.mb-4
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -209,7 +209,7 @@
         .col-md.col-lg-6
           #t_7_1.titulo-segundo.color-acento-contenido.mb-3
             h4(style="color:#000 !important") Creative Commons
-          p.mb-4(style="color:#000 !important") Guía que sirve apoyo para comprender y aplicar las licencias Creative Commons, las cuales permiten a los autores definir de manera clara cómo pueden ser usadas, compartidas o adaptadas sus obras, promoviendo el uso legal y responsable de los contenidos digitales.
+          p.mb-4(style="color:#000 !important") Guía que sirve de apoyo para comprender y aplicar las licencias Creative Commons, las cuales permiten a los autores definir de manera clara cómo pueden ser usadas, compartidas o adaptadas sus obras, promoviendo el uso legal y responsable de los contenidos digitales.
           a.boton.color-acento-botones.texto-blanco(href="http://creativecommons.org/choose/" target="_blank" rel="noopener noreferrer")
             span Enlace web
             i.fas.fa-external-link-alt
@@ -223,7 +223,7 @@
           h3.mb-0.ms-3 Cómo evitar el plagio
 
     p El término plagio, proveniente del latín #[i plagiarius] (ladrón), hace referencia a la acción de copiar o imitar de manera sustancial una obra ajena —ya sea literaria, artística o académica— sin la debida autorización, presentándola como propia. En el ámbito educativo, el plagio constituye una falta de carácter ético y moral que, de ser comprobada, puede dar lugar a sanciones conforme a las políticas y reglamentos de la institución.
-    p.mb-4 El plagio tiene varias manifestaciones dentro las cuales se pueden incluir las siguientes: 
+    p.mb-4 El plagio tiene varias manifestaciones, dentro de las cuales se pueden incluir las siguientes: 
 
     .BMG1.px-md-5.px-4
       .row.justify-content-center.mb-4
@@ -255,9 +255,9 @@
               | Copiar de sitios #[i web], libros, revistas, periódicos magacines, obras, películas, etc. 
 
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/tema7/img-19.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema7/img-19.svg' alt="")
 
-    p.mb-4.text-center Igualmente, si se desea buscar contenidos con licencias Creative Commons se sugiere consultar los siguientes recursos:
+    p.mb-4.text-center Para evitar caer en el plagio se sugieren las siguientes estrategias: 
 
     .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-5
       .row.justify-content-center.align-items-center.my-lg-5.my-4
@@ -304,11 +304,11 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/tema7/img-28.svg', alt='').m-auto
           .col-xl
-            p Pero lo anterior ¿Para qué? 
+            p Pero lo anterior, ¿para qué? 
             ul.lista-ul
               li.mb-0 
                 i.lista-ul__vineta
-                | Para facilitarle al lector de mí trabajo la ubicación de las fuentes consultadas. 
+                | Para facilitarle al lector de mi trabajo la ubicación de las fuentes consultadas. 
               li.mb-0 
                 i.lista-ul__vineta
                 | Para reconocer a los autores consultados.

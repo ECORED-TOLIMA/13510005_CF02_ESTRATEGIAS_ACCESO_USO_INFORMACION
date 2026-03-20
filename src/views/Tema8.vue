@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-4
       .col-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/tema8/img-01.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema8/img-01.png', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -30,7 +30,7 @@
           p “La alfabetización informacional es fundamental para desenvolverse críticamente en la sociedad digital” (Area Moreira, 2012, p. 45).
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema8/img-02.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema8/img-02.png', alt="")
       .row.justify-content-center(titulo="Cita textual larga (40 palabras o más)")
         .col-lg-5.order-lg-1.order-2
           p Se presenta en un bloque independiente, sin comillas, con sangría izquierda y manteniendo el mismo interlineado del texto. Al final se incluye la referencia correspondiente.
@@ -39,15 +39,15 @@
           
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema8/img-03.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema8/img-03.png', alt="")
       .row.justify-content-center(titulo="Cita parafraseada")
         .col-lg-5.order-lg-1.order-2
           p Se emplea cuando se expresa con palabras propias la idea de un autor. No se utilizan comillas y no es obligatorio indicar la página, aunque se recomienda hacerlo.
           p.mb-0 #[b Ejemplo:]
-          p La alfabetización informacional permite a las personas analizar críticamente la información y tomar decisiones informadas en entornos digitales (Área Moreira, 2012).
+          p La alfabetización informacional permite a las personas analizar críticamente la información y tomar decisiones informadas en entornos digitales (Area Moreira, 2012).
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema8/img-04.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema8/img-04.png', alt="")
       .row.justify-content-center(titulo="Cita narrativa")
         .col-lg-5.order-lg-1.order-2
           p El apellido del autor se integra dentro del texto y entre paréntesis se incluye el año (y la página, si aplica).
@@ -55,7 +55,7 @@
           p Según Area Moreira (2012), la alfabetización informacional es una competencia esencial en los procesos educativos actuales.
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema8/img-05.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema8/img-05.png', alt="")
       .row.justify-content-center(titulo="Cita parentética")
         .col-lg-5.order-lg-1.order-2
           p Toda la información de la fuente se incluye al final de la frase, entre paréntesis.
@@ -63,7 +63,7 @@
           p La gestión crítica de la información es clave para el aprendizaje autónomo (Area Moreira, 2012).
         .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
-            img(src='@/assets/curso/tema8/img-06.png', alt="Imagen decorativa")
+            img(src='@/assets/curso/tema8/img-06.png', alt="")
   
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-7.order-2
@@ -95,7 +95,7 @@
                 | Permite a otros lectores localizar las fuentes originales.
       .col-lg-5.col-md-6.col-8.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema8/img-07.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema8/img-07.png', alt='')
 
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -108,7 +108,7 @@
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/introduccion/img-02.svg', alt='')
       .col-11
         p(data-aos="fade-left") El parafraseo se emplea cuando se utilizan las ideas de otro autor, pero se expresan con palabras propias. No obstante, es indispensable incluir la cita correspondiente al autor al finalizar el parafraseo. Asimismo, cuando se realiza el resumen de una página específica de un libro, debe indicarse el número de página en la referencia bibliográfica.
         p.mb-4(data-aos="fade-left") Ejemplo: 
@@ -130,6 +130,8 @@
             .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4 
               figure
                 img(src='@/assets/curso/tema8/img-10.png', style="width: 500px" ,alt='').m-auto
+
+    p Mediante estos dos tipos de técnicas (citación y parafraseo) está respetando el derecho de los autores a ser reconocidos como creadores de sus obras. 
           
     .row.align-items-center.mb-4(data-aos="zoom-in")
       .col-auto.pe-0(style="z-index:2")
@@ -153,7 +155,7 @@
               p(style="color:#000 !important") Area Moreira, M. (2012). #[i Alfabetización informacional y digital.] Síntesis.
             .col-lg-6.col-10.order-1.order-lg-1.mb-4 
               figure
-                img(src='@/assets/curso/tema8/img-11.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-11.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-2
               h4(style="color:#000 !important") Referencia de capítulo de libro
@@ -162,7 +164,7 @@
               p(style="color:#000 !important") García Aretio, L. (2014). La educación a distancia en la sociedad del conocimiento. En L. García Aretio (Ed.), #[i Bases, mediaciones y futuro de la educación a distancia] (pp. 35–58). Síntesis.
             .col-lg-6.col-10.order-1.order-lg-1.mb-4
               figure
-                img(src='@/assets/curso/tema8/img-12.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-12.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-2
               h4(style="color:#000 !important") Referencia de artículo científico
@@ -171,7 +173,7 @@
               p(style="color:#000 !important") Cabero Almenara, J. (2015). Reflexiones educativas sobre las tecnologías de la información y la comunicación. #[i Tecnología, Ciencia y Educación, 1](1), 19–27.
             .col-lg-6.col-10.order-1.order-lg-1.mb-4
               figure
-                img(src='@/assets/curso/tema8/img-13.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-13.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-2
               h4(style="color:#000 !important") Referencia de página #[i web]
@@ -180,7 +182,7 @@
               p(style="color:#000 !important") Organización Mundial de la Propiedad Intelectual. (s.f.). #[i ¿Qué es la propiedad intelectual?] https://www.wipo.int/about-ip/es/ 
             .col-lg-6.col-10.order-1.order-lg-1.mb-4
               figure
-                img(src='@/assets/curso/tema8/img-14.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-14.png', alt='')
           .row
             .col-lg-6.order-2.order-lg-2
               h4(style="color:#000 !important") Referencia de documento institucional
@@ -189,7 +191,7 @@
               p(style="color:#000 !important") Dirección Nacional de Derechos de Autor. (s.f.). #[i Conceptos básicos sobre derecho de autor y derechos conexos.] https://www.derechodeautor.gov.co 
             .col-lg-6.col-10.order-1.order-lg-1.mb-4
               figure
-                img(src='@/assets/curso/tema8/img-15.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema8/img-15.png', alt='')
 
 </template>
 

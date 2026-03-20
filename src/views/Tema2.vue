@@ -67,7 +67,7 @@ export default {
       },
       {
         texto:
-          '<b>Tipo de texto:</b> descriptivo <br><br><b>Función principal:</b> detallar rasgos, procesos o atributos de un objeto o situación. <br><br><b>Contexto de uso:</b> Guías técnicas y catálogos.',
+          '<b>Tipo de texto:</b> descriptivo <br><br><b>Función principal:</b> detallar rasgos, procesos o atributos de un objeto o situación. <br><br><b>Contexto de uso:</b> guías técnicas y catálogos.',
         imagen: require('@/assets/curso/tema2/img-03.png'),
         // leyendaImagen: 'Leyenda_de_la_imagen',
       },
