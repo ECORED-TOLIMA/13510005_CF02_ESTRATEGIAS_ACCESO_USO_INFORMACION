@@ -292,7 +292,7 @@
               h3.mb-1(style="color:#000") Matriz de evaluación rápida (hoja de cotejo)
               p Presenta una tabla práctica para valorar de forma ágil la confiabilidad de una fuente mientras se navega en internet, mediante criterios clave y una escala de puntuación que orienta la toma de decisiones.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_matriz_de_evaluacion_rapida.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_matriz_evaluacion_rapida.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -306,7 +306,7 @@
               h3.mb-1(style="color:#000") Rúbrica de evaluación de trabajo de investigación
               p Ofrece un instrumento de autoevaluación que permite analizar la calidad de las fuentes utilizadas en un trabajo académico, considerando vigencia, contraste de información, detección de sesgos y rigor investigativo.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_rubrica_de_evaluacion_de_trabajo_de_investigacion.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_rubrica_evaluacion_trabajo_investigacion.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -320,7 +320,7 @@
               h3.mb-1(style="color:#000") Guía visual “Semáforo de confiabilidad”
               p Propone un esquema gráfico sencillo para clasificar las fuentes, según su nivel de confiabilidad, facilitando la identificación rápida de recursos recomendados, verificables o descartables.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_guia_visual_semaforo_de_confiabilidad.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_guia_visual_semaforo_confiabilidad.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -334,7 +334,7 @@
               h3.mb-1(style="color:#000") Plantilla de ficha de análisis de fuente
               p Incluye un formato detallado para examinar de manera crítica cada fuente consultada, evaluando autoridad, objetividad y precisión, emitiendo un veredicto fundamentado sobre su pertinencia académica.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_plantilla_de_ficha_de_analisis_de_fuente.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_plantilla_ficha_analisis_fuente.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
