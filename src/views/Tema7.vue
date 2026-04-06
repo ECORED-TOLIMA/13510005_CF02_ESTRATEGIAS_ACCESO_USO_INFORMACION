@@ -15,7 +15,7 @@
         p.mb-4 De acuerdo con la Organización Mundial de la Propiedad Intelectual (OMPI) (s.f.): 
         .row.justify-content-center.mb-4
           .col.col-lg-10.order-lg-2.order-2
-            p(data-aos="fade-down") … La propiedad intelectual, tiene que ver con las creaciones de la mente: las invenciones las obras literarias y artísticas, los símbolos, los nombres, las imágenes y los dibujos y modelos utilizados en el comercio. 
+            p(data-aos="fade-down") … La propiedad intelectual tiene que ver con las creaciones de la mente: las invenciones, las obras literarias y artísticas, los símbolos, los nombres, las imágenes y los dibujos y modelos utilizados en el comercio. 
           .col.col-lg-auto.order-lg-1.order-1.d-none.d-lg-block
             figure
               img(src='@/assets/curso/introduccion/img-02.svg', alt='')
