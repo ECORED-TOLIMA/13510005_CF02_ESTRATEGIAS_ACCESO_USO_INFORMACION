@@ -292,7 +292,7 @@
               h3.mb-1(style="color:#000") Matriz de evaluación rápida (hoja de cotejo)
               p Presenta una tabla práctica para valorar de forma ágil la confiabilidad de una fuente mientras se navega en internet, mediante criterios clave y una escala de puntuación que orienta la toma de decisiones.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_matriz_evaluacion_rapida.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_matriz_de_evaluacion_rapida.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
