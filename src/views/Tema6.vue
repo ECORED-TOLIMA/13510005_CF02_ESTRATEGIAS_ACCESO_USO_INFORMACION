@@ -104,7 +104,7 @@
           #t_7_1.titulo-segundo.color-acento-contenido.mb-3
             h4(style="color:#000 !important") Manual interno de políticas, directrices y procedimientos para el uso de las TIC - SENA
           p.mb-4(style="color:#000 !important") Presenta un documento institucional que establece políticas, directrices y procedimientos para el uso adecuado de las TIC en el SENA, orientado a garantizar la disponibilidad, calidad y buen manejo de los servicios tecnológicos, fortaleciendo la infraestructura digital y apoyando el cumplimiento de la misión institucional.
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Manual_interno_de_politicas_directrices_y_procedimientos_para_el_uso_de_las_TIC.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Manual_interno_politicas_directrices_procedimientos_para_el_uso_TIC.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
